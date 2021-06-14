@@ -1,4 +1,4 @@
-# rw_validator::Validator
+# rw_validator
 
 [![Gem Version](https://badge.fury.io/rb/rw_validator.svg)](http://rubygems.org/gems/rw_validator)
 
