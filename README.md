@@ -1,5 +1,7 @@
 # rw_validator::Validator
 
+[![Gem Version](https://badge.fury.io/rb/rw_validator.svg)](http://rubygems.org/gems/rw_validator)
+
 A fast minimal ruby gem to validate Rwandan National Ids and Phone Numbers(all carriers) using Regular Expressions.
 
 ## Installation
