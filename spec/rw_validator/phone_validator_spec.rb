@@ -1,11 +1,7 @@
-require "rw_validator/validator"
+require "rw_validator"
 
 RSpec.describe RwValidator::Validate do
   validate = RwValidator::Validate.new
-
-  it "has a version number" do
-    expect(RwValidator::VERSION).not_to be nil
-  end
 
   it "should be false when phone number is not given" do
     expect(validate.is_phone_number?('')).to eq(false)
