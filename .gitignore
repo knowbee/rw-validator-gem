@@ -23,6 +23,7 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+*.gz
 
 # rspec failure tracking
 .rspec_status
