@@ -25,8 +25,8 @@ Or install it yourself as:
   ```ruby
   require "rw_validator"
 
-  RwValidator.is_phone_number? "0788854444" // true
-  RwValidator.is_phone_number? "0778854444" // false
+  RwValidator.phone_number? "0788854444" // true
+  RwValidator.phone_number? "0778854444" // false
 
   ```
 
@@ -34,8 +34,8 @@ Or install it yourself as:
 
   ```ruby
 
-  RwValidator.is_national_id? "1199672222000040" // true
-  RwValidator.is_national_id? "1201772222000040" // false
+  RwValidator.national_id? "1199672222000040" // true
+  RwValidator.national_id? "1201772222000040" // false
 
   ```
 
